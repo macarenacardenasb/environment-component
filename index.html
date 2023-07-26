@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.3/dist/aframe-environment-component.min.js"></script>
+  </head>
+  
+  <body>
+    <a-scene>
+
+ <a-entity environment= 
+    "preset: dream;
+    seed: 1;
+    skyType: gradient;
+    skyColor: red;
+    horizonColor: blue;
+    
+    ground: spikes;
+    groundYScale: 100;
+    groundColor: red;
+    groundTexture: walkernoise;
+    groundColor2: grey;
+
+
+    dressing: mushrooms;
+    dressingAmount: 1000;
+    dressingColor: white;
+    playArea: 1;
+
+  
+
+
+    ">
+  </a-entity>
+
+    <a-camera position="5 7 0"></a-camera>
+   
+  </a-scene>
+  </body>
+</html>
